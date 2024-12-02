@@ -1,0 +1,17 @@
+Benchmark       (bufferSize)  Mode  Cnt    Score   Error  Units
+Main.readFile           1024  avgt   10   52,275 ± 0,655  ms/op
+Main.readFile           2048  avgt   10   29,432 ± 0,591  ms/op
+Main.readFile           4096  avgt   10   19,081 ± 0,223  ms/op
+Main.readFile           8192  avgt   10   13,659 ± 0,477  ms/op
+Main.readFile          16384  avgt   10   10,544 ± 0,404  ms/op
+Main.readFile        1048576  avgt   10    7,658 ± 0,354  ms/op
+Main.readFile        4194304  avgt   10   10,922 ± 0,918  ms/op
+Main.readFile      104857600  avgt   10   15,055 ± 0,371  ms/op
+Main.writeFile          1024  avgt   10  152,942 ± 2,710  ms/op
+Main.writeFile          2048  avgt   10   82,886 ± 3,655  ms/op
+Main.writeFile          4096  avgt   10   46,606 ± 1,647  ms/op
+Main.writeFile          8192  avgt   10   37,421 ± 1,102  ms/op
+Main.writeFile         16384  avgt   10   42,816 ± 7,245  ms/op
+Main.writeFile       1048576  avgt   10   36,929 ± 1,541  ms/op
+Main.writeFile       4194304  avgt   10   37,005 ± 1,091  ms/op
+Main.writeFile     104857600  avgt   10   36,587 ± 2,196  ms/op
